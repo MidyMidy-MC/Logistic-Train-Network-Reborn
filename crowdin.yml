@@ -1,3 +1,7 @@
 files:
   - source: /locale/en/*
     translation: /locale/%locale%/%file_name%.cfg
+    type: 'ini'
+    languages_mapping:
+      locale:
+       de: de
